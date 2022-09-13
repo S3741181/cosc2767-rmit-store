@@ -76,7 +76,7 @@
             <div class="slider_inner">
                 <div class="image-change">
                     <h2 class="wow fadeInUp animated">Gamer University</h2>
-                    <h5 class="wow fadeIn animated" data-wow-delay="0.2s">Buy Our Store</h5>
+                    <h5 class="wow fadeIn animated" data-wow-delay="0.2s">Buy at Our Store</h5>
                     <a class="learn-more wow fadeInU" data-wow-delay="0.3s" href="#item-list">Buy Now!</a>
                 </div>
             </div>
@@ -85,7 +85,7 @@
 
         <section class="rmit-store-section row">
             <div class="check_tittle wow fadeInUp" data-wow-delay="0.4s" id="item-list">
-                <h2>Our Store</h2>
+                <h2>My Store</h2>
             </div>
             <div class="row rmit-product-section">
               <?php
