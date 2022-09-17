@@ -92,7 +92,7 @@
               $link = mysqli_connect(
                   "database123.cixvfgv7qbzw.us-east-1.rds.amazonaws.com",
                   "admin",
-                  "01234567890",
+                  "1234567890",
                   "database123"
               );
               if ($link) {
