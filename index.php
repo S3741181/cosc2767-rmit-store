@@ -90,10 +90,10 @@
             <div class="row rmit-product-section">
               <?php
               $link = mysqli_connect(
-                  "localhost",
-                  "db_admin",
-                  "rmit_password",
-                  "rmit_store_db"
+                  "database123.cixvfgv7qbzw.us-east-1.rds.amazonaws.com",
+                  "admin",
+                  "01234567890",
+                  "database123"
               );
               if ($link) {
                   $res = mysqli_query($link, "select * from store;");
