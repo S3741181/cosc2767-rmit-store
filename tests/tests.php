@@ -7,13 +7,13 @@ use function PHPUnit\Framework\assertNull;
         
     class DatabaseTest extends TestCase
     {   
-        public function testConnection(){
-                $mysqui = new \MySQLi("localhost", "db_admin", "rmit_password", "rmit_store_db");
-                assertEmpty($mysqui -> connect_errno);
-        }
+        // public function testConnection(){
+        //         $mysqui = new \MySQLi("localhost", "db_admin", "rmit_password", "rmit_store_db");
+        //         assertEmpty($mysqui -> connect_errno);
+        // }
 
         public function randomTest(){
             $a = 0;
-            $this -> assertEqual($a, 0);
+            $this -> assertEquals($a, 0);
         }
     }
