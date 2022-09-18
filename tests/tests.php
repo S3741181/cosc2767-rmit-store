@@ -1,7 +1,6 @@
 <?php
-    use PHPUnit_Framework_TestCase as TestCase;
         
-    class Tests extends TestCase
+    class Tests extends PHPUnit_Framework_TestCase
     {   
         // public function testConnection(){
         //         $mysqui = new \MySQLi("localhost", "db_admin", "rmit_password", "rmit_store_db");
@@ -14,6 +13,7 @@
         }
 
         public function true(){
-            $this -> assertTrue(true);
+            $b = true;
+            $this -> assertTrue($b);
         }
     }
