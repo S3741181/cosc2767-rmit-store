@@ -1,10 +1,10 @@
 <?php
         
-    class Tests extends PHPUnit_Framework_TestCase
+    class Test extends PHPUnit_Framework_TestCase
     {   
         // public function testConnection(){
         //         $mysqui = new \MySQLi("localhost", "db_admin", "rmit_password", "rmit_store_db");
-        //         assertEmpty($mysqui -> connect_errno);
+        //         assertEmpty($mys.qui -> connect_errno);
         // }
 
         public function randomTest(){
