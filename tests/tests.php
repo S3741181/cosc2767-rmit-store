@@ -1,9 +1,5 @@
 <?php
-    use PHPUnit\Framework\TestCase as TestCase;
-
-use function PHPUnit\Framework\assertEmpty;
-use function PHPUnit\Framework\assertNotNull;
-use function PHPUnit\Framework\assertNull;
+    use PHPUnit_Framework_TestCase as TestCase;
         
     class Tests extends TestCase
     {   
@@ -15,5 +11,9 @@ use function PHPUnit\Framework\assertNull;
         public function randomTest(){
             $a = 0;
             $this -> assertEquals($a, 0);
+        }
+
+        public function true(){
+            $this -> assertTrue(true);
         }
     }
