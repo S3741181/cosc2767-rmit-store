@@ -98,7 +98,7 @@
               if ($link) {
                   $res = mysqli_query($link, "select * from store;");
                   while ($row = mysqli_fetch_assoc($res)) { ?>
-
+                    
 
                 <div class="col-md-3 col-sm-5 product-content">
                     <?php echo '<img src="img/' .

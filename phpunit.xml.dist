@@ -1,0 +1,19 @@
+<phpunit bootstrap="./tests/bootstrap.php"
+         verbose="false"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true">
+         
+    <php>
+        <var name="DB_HOST" value="localhost" />
+        <var name="DB_USER" value="db_admin" />
+        <var name="DB_PASSWD" value="rmit_password" />
+        <var name="DB_DBNAME" value="rmit_store_db" />
+    </php>
+
+    <testsuites>
+        <testsuite name="persistence">
+            <directory>./tests/Persistence</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
