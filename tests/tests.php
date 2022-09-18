@@ -5,7 +5,7 @@ use function PHPUnit\Framework\assertEmpty;
 use function PHPUnit\Framework\assertNotNull;
 use function PHPUnit\Framework\assertNull;
         
-    class DatabaseTest extends TestCase
+    class Tests extends TestCase
     {   
         // public function testConnection(){
         //         $mysqui = new \MySQLi("localhost", "db_admin", "rmit_password", "rmit_store_db");
